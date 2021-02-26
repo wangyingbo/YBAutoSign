@@ -2,7 +2,7 @@ name: 删除日志
 on:
   workflow_dispatch:
     inputs:
-      days: #要保留的天数
+      days: #要保留的天数 
         description: 'Number of days.'
         required: true
         default: 1
